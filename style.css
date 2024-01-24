@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-top: 10px;
+}
+.contenedor .producto {
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.contenedor .producto img {
+  height: 300px;
+  width: 100%;
+}
+.contenedor .producto h3 {
+  color: blue;
+  font-size: 1.3rem;
+}
+.contenedor .producto button {
+  border-radius: 5px;
+}
+.contenedor .producto button:hover {
+  background-color: aqua;
+}
+
+.contenedorCarrito .posicionCarrito {
+  display: flex;
+  align-items: center;
+}
+.contenedorCarrito .posicionCarrito h3 {
+  color: red;
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+.contenedorCarrito .posicionCarrito p {
+  font-size: 1.5rem;
+}
+
+.total {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.botonCarrito {
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
